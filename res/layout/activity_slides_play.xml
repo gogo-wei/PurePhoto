@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    >
+
+    <!--
+         As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions.
+    -->
+
+    <FrameLayout
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        />
+
+</LinearLayout>

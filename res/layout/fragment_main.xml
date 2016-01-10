@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="2dp"
+    >
+
+    <GridView 
+        android:id="@+id/gv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="160dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+		android:horizontalSpacing="2dp"
+		android:verticalSpacing="2dp"
+		android:stretchMode="columnWidth"
+		android:background="#ffffff"
+        />
+
+</LinearLayout>

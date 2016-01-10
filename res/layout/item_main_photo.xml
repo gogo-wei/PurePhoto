@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView 
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#6f000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        >
+        <TextView
+            android:id="@+id/tv_fileName"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路径"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/tv_photoNum"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_weight="1"
+        android:text="数量"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+</FrameLayout>

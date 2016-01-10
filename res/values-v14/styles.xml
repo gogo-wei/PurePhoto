@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+        <!-- 定义 ActionBar 的 标题 副标题样式, 背景, 分割条, 进度条样式等; -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- 定义返回箭头图片 -->
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <!-- 定义菜单文字样式 -->
+        <item name="android:actionMenuTextAppearance">@style/MenuTittleStyle</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#009688</item>
+        <item name="android:backgroundStacked">#ffffff</item>
+        <item name="android:backgroundSplit">#009688</item>
+        <!-- AcBar标题样式 -->
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+        <!-- AcBar副标题样式 -->
+        <item name="android:subtitleTextStyle">@style/AcBar_subtitleStyle</item>
+    </style>
+    
+    <style name="AcBar_titleStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AcBar_subtitleStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--自定义的菜单样式-->
+  <style 
+    name="MenuTittleStyle"
+    parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+</resources>

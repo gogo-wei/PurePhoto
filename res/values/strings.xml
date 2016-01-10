@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Photo</string>
+    <string name="title_photo">相册</string>
+    <string name="title_video">视频</string>
+    <string name="navigation_drawer_open">展开</string>
+    <string name="navigation_drawer_close">关闭</string>
+    <string name="action_camera">拍摄</string>
+    <string name="action_slides_play">幻灯片</string>
+
+</resources>
